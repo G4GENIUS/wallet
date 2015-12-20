@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Magicpin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	</head>
+<body>
+<header>
+<div class="top-header">
+<div class="inner-wrapper">
+<h3>Wallet</h3>
+</div>
+</div>
+<div class="header-bottom">
+<div class="inner-wrapper">
+	<h2>Hi, Ashish Sharma</h2>
+	<div class="wallet-info-wrapper">
+		<div class="wallet-info">
+			Your Balance
+		</div>
+		<div class="wallet-balance">
+		<span class="rupee-icn"><i class="fa fa-inr"></i></span>100.00
+		</div>
+	</div>
+</div>
+</div>
+</header>
+<section class="wallet-detail-wrapper">
+	<aside class="fixed-operators">
+		<ul>
+		<li class="active"><div class="operator-thumbs"><img src="images/vodafone-sm.png" alt="vodafone" /></div><h4><a href="#">Vodafone</a></h4></li>
+		<li><div class="operator-thumbs"><img src="images/vodafone-sm.png" alt="vodafone" /></div><h4><a href="#">Vodafone</a></h4></li>
+		<li><div class="operator-thumbs"><img src="images/vodafone-sm.png" alt="vodafone" /></div><h4><a href="#">Vodafone</a></h4></li>
+		<li><div class="operator-thumbs"><img src="images/vodafone-sm.png" alt="vodafone" /></div><h4><a href="#">Vodafone</a></h4></li>
+		<li><div class="operator-thumbs"><img src="images/vodafone-sm.png" alt="vodafone" /></div><h4><a href="#">Vodafone</a></h4></li>
+		</ul>
+	</aside>
+	<section class="tabs-content-wrapper">
+		<div class="lead row">
+		<strong>Rs.300</strong> worth of ride for Rs.30. For first time Uber users only. <span class="orange-txt uc-txt">90% off</span>
+		</div>
+		<div class="row contact-wrapper">
+			<form>
+				<div class="form-group">
+					<label>Contact Number:</label>
+					<div class="input-wrapper">
+						<span>+91 </span>
+						<input type="tel" placeholder="99999999" />
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="row coupon-wrapper">
+			<h3>Select Coupon Amount:</h3>
+			<ul>
+			<li class="circle-recharge disabled"><a href="#">50</a></li>
+			<li class="circle-recharge active"><a href="#">100</a></li>
+			<li class="circle-recharge border-recharge"><a href="#">150</a></li>
+			<li class="circle-recharge active inprogress"><a href="#">200</a></li>
+			</ul>
+		</div>
+		<p class="terms"><a href="#">Terms & Conditions</a></p>
+		<div class="btn-wrapper fixed-button">
+			<a href="#" class="btn btn-blue">Buy Now</a>
+		</div>
+	</section>
+</section>
+<script>
+var x = document.getElementById("fixed-side").clientWidth;
+var y = document.getElementById("tabs-content").clientWidth;
+var y = screen.width - x;
+document.getElementById('fixed-buttons').style.width = y + "px";
+</script>
+</body>
+</html>
